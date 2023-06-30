@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./CSS/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +10,15 @@
 <body>
     <header>
         <a href="Inicio">
-            <img src="./Yo Soy Samuel.jpg" alt="Mi Foto" width="50" class="logo">         
+            <img src="./Imagenes/Yo Soy Samuel.jpg" alt="Mi Foto" width="50" class="logo">         
         </a>
         <nav>
-            <ul class="menu">
-                <li><a href="#Inicio">Inicio</a></li>
+            <ul class="menu-item">
+                <li>
+                    <a href="#Inicio" class="active">Inicio</a></li>
 
-                <li><a href="#Contacto">Contacto</a></li>
+                <li>
+                    <a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +26,7 @@
 <main>
     <section id="Inicio">
         <figure class="presentacion-img">
-            <img src="./888.jpg" alt="Mi cara" width="200">
+            <img src="./Imagenes/Destacada.jpg" alt="Mi cara" width="200">
 
         </figure>
 
@@ -65,21 +67,23 @@
                 habilidades.
             </p>
         </article>  
-          
-            <div>
+
+        <br>
+        <br>
+        
+            <div>                
                 <ul class="iconos">
-                    <li> <a href="mailto:sandovalsamuel83@gmail.com" target="_blank"><img src="./mail.png" alt=""></a>
+                    <li> <a href="mailto:sandovalsamuel83@gmail.com" target="_blank"><img src="./Imagenes/mail.png" alt="correo"></a>
 
                     </li>
-                    <li> <a href="" target="_blank"><img src="./github.png" alt=""></a>
+                    <li> <a href="" target="_blank"><img src="./Imagenes/github.png" alt=""></a>
 
                     </li>
-                    <li> <a href="https://www.linkedin.com/" target="_blank"><img src="./linkedin.png" alt=""></a>
+                    <li> <a href="https://www.linkedin.com/" target="_blank"><img src="./Imagenes/linkedin.png" alt=""></a>
 
-                    </li>
+                    </li>                
                 </ul>
-
-
+            
             </div>
     </section>
     
@@ -87,6 +91,6 @@
     <footer>      
         <p>Samuel Sandoval todos los derechos reservados</p>
     </footer>
-
+<script src="./JS/main.js"></script>
 </body>
 </html>

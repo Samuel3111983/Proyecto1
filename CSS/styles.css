@@ -62,19 +62,20 @@ header{
     width: 90px;
 }
 
-.menu {
+.menu-item {
     display: flex;
     font-size: 20px;
+    margin-right: 20px;
 }
 
-.menu li a {
+.menu-item li a {
     padding: 16px;
 }
  /*Sección*/
 
  section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px;
@@ -97,23 +98,46 @@ header{
 }
 
 .btn-cv {
-background-color: aqua;
+background-color: rgb(32, 202, 236);
 padding: 12px 20px;
 border-radius: 50px;
 font-size: 20px;
 display: inline-block;
-
 }
+
+.btn-cv:hover, .active {
+    background-color: rgb(12, 161, 191) ;
+    transition: 0.2s;
+}
+
+@media (min-width: 1024px) {
+    h1{
+        font-size: 50px;
+        text-align: justify;
+
+        #Inicio {
+flex-direction: row;
+        }        
+    }
+   
+    #Contacto {
+       flex-direction: column;
+       padding: 100px;
+    }
+    
+}
+
 
 /* Section 2 */
 
 
-#hablemos {
-background-color: cornflowerblue;
+.hablemos {
+background-color: rgb(32, 202, 236);
 padding: 12px 20px;
 border-radius: 25px;
-text-align: center;
+text-align: justify;
 }
+
 .iconos {
     display: flex;
     justify-content: space-between;
@@ -129,7 +153,7 @@ ul {
 }
 
 footer {
-background-color: #af599e;
+background-color: rgb(32, 202, 236);
 padding: 20px 0px;
 text-align: center;
 
@@ -137,4 +161,3 @@ text-align: center;
 div {
     padding: 20px;
 }
-
